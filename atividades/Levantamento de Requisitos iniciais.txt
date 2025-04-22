@@ -2,7 +2,7 @@ Atividade 1 - Fazer o levantamento inicial: 3 histórias de usuários, 3 requisi
 
 -----------------------------------------------------------------------------------------------
 				Histórias de Usuários 
-1-
+1- Como criança usuária do jogo, quero descobrir a função de cada peça de um computador, para entender como elas se conectam e contribuem juntas para o funcionamento do sistema.
 2-
 3-
 -----------------------------------------------------------------------------------------------
