@@ -4,7 +4,7 @@ Atividade 1 - Fazer o levantamento inicial: 3 histórias de usuários, 3 requisi
 				Histórias de Usuários 
 1- Como criança usuária do jogo, quero descobrir a função de cada peça de um computador, para entender como elas se conectam e contribuem juntas para o funcionamento do sistema.
 2- Como responsável por uma criança usuária do jogo, quero que meu filho(a) use um software educativo, divertido e seguro, para que ele(a) possa aprender sobre tecnologia e desenvolver interesse pela área.
-3-
+3- Como educador(a), quero acompanhar o desempenho das crianças no jogo por meio de relatórios simples e visuais, para avaliar seu progresso na aprendizagem e identificar quais conceitos precisam ser reforçados.
 -----------------------------------------------------------------------------------------------
 				Requisitos Funcionais
 1- O sistema deve permitir que o jogador monte um computador virtual interativamente, seguindo uma progressão por níveis. A montagem deve ocorrer de fora para dentro, com componentes sendo arrastados e posicionados corretamente na estrutura do computador.
