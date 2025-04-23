@@ -3,7 +3,7 @@ Atividade 1 - Fazer o levantamento inicial: 3 histórias de usuários, 3 requisi
 -----------------------------------------------------------------------------------------------
 				Histórias de Usuários 
 1- Como criança usuária do jogo, quero descobrir a função de cada peça de um computador, para entender como elas se conectam e contribuem juntas para o funcionamento do sistema.
-2-Como responsável por uma criança usuária do jogo, quero que meu filho(a) use um software educativo, divertido e seguro, para que ele(a) possa aprender sobre tecnologia e desenvolver interesse pela área.
+2- Como responsável por uma criança usuária do jogo, quero que meu filho(a) use um software educativo, divertido e seguro, para que ele(a) possa aprender sobre tecnologia e desenvolver interesse pela área.
 3-
 -----------------------------------------------------------------------------------------------
 				Requisitos Funcionais
