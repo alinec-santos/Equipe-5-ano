@@ -8,7 +8,7 @@ Atividade 1 - Fazer o levantamento inicial: 3 histórias de usuários, 3 requisi
 -----------------------------------------------------------------------------------------------
 				Requisitos Funcionais
 1- O sistema deve permitir que o jogador monte um computador virtual interativamente, seguindo uma progressão por níveis. A montagem deve ocorrer de fora para dentro, com componentes sendo arrastados e posicionados corretamente na estrutura do computador.
-2-
+2- O sistema deve oferecer ao jogador a opção de usar dicas em momentos de dificuldade, garantindo sua progressão. O botão de dica deve ter um design intuitivo e ilustrativo para facilitar o entendimento. Quando acionado, ele deve fornecer uma informação relevante e contextual para auxiliar o jogador na montagem do computador.
 3-
 -----------------------------------------------------------------------------------------------
 				Requisitos Não-Funcionais
