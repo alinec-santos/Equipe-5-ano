@@ -14,5 +14,5 @@ Atividade 1 - Fazer o levantamento inicial: 3 histórias de usuários, 3 requisi
 				Requisitos Não-Funcionais
 1- O sistema deve explicar os assuntos de um jeito divertido e fácil de entender, com imagens e exemplos simples, pra ajudar as crianças a aprenderem mesmo que nunca tenham visto um computador por dentro.
 2- O usuário deve receber feedback imediato sobre acertos ou erros na montagem dos componentes.
-3-
+3- O sistema deve possuir uma interface intuitiva e atrativa para as crianças, bem como possuir textos de fácil compreensão.
 -----------------------------------------------------------------------------------------------
