@@ -1,0 +1,16 @@
+Atividade 1 - Fazer o levantamento inicial: 3 histórias de usuários, 3 requisitos funcionais e 3 requisitos não-funcionais. 
+
+-----------------------------------------------------------------------------------------------
+				Histórias de Usuários 
+1- Como criança usuária do jogo, quero descobrir a função de cada peça de um computador, para entender como elas se conectam e contribuem juntas para o funcionamento do sistema.
+2- Como responsável por uma criança usuária do jogo, quero que meu filho(a) use um software educativo, divertido e seguro, para que ele(a) possa aprender sobre tecnologia e desenvolver interesse pela área.
+3- Como educador(a), quero acompanhar o desempenho das crianças no jogo por meio de relatórios simples e visuais, para avaliar seu progresso na aprendizagem e identificar quais conceitos precisam ser reforçados.
+-----------------------------------------------------------------------------------------------
+				Requisitos Funcionais
+1- O sistema deve permitir o cadastro de professores. (como nome,senha e sala. )
+2- O sistema deve permitir ao professor que crie uma sala para sua turma com um codigo identicador. 
+3- O sistema deve permitir ao aluno que se vincule a sua propria sala por meio do codigo que foi gerado ao professor e digite seu nickname unico. 
+-----------------------------------------------------------------------------------------------
+				Requisitos Não-Funcionais
+
+-----------------------------------------------------------------------------------------------
