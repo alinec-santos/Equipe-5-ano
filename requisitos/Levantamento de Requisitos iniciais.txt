@@ -1,15 +1,47 @@
-Atividade 1 - Fazer o levantamento inicial: 3 histórias de usuários, 3 requisitos funcionais e 3 requisitos não-funcionais. 
 
 -----------------------------------------------------------------------------------------------
 				Histórias de Usuários 
 1- Como criança usuária do jogo, quero descobrir a função de cada peça de um computador, para entender como elas se conectam e contribuem juntas para o funcionamento do sistema.
+
 2- Como responsável por uma criança usuária do jogo, quero que meu filho(a) use um software educativo, divertido e seguro, para que ele(a) possa aprender sobre tecnologia e desenvolver interesse pela área.
+
 3- Como educador(a), quero acompanhar o desempenho das crianças no jogo por meio de relatórios simples e visuais, para avaliar seu progresso na aprendizagem e identificar quais conceitos precisam ser reforçados.
 -----------------------------------------------------------------------------------------------
 				Requisitos Funcionais
-1- O sistema deve permitir o cadastro de professores. (como nome,senha e sala. )
-2- O sistema deve permitir ao professor que crie uma sala para sua turma com um codigo identicador. 
-3- O sistema deve permitir ao aluno que se vincule a sua propria sala por meio do codigo que foi gerado ao professor e digite seu nickname unico. 
+1. Acesso Inicial
+RF01 - O sistema deve exibir, ao iniciar, a opção para o usuário selecionar se é aluno ou professor.
+
+2. Cadastro e Autenticação de Professores
+RF02 - O sistema deve permitir que professores realizem cadastro, informando nome, senha e nome da sala.
+RF03 - O sistema deve permitir que professores façam login com seu nome e senha cadastrados.
+
+3. Gerenciamento de Salas
+RF04 - O sistema deve permitir ao professor criar uma sala virtual para sua turma.
+RF05 - O sistema deve gerar automaticamente um código único da sala, que será utilizado pelos alunos para vinculação.
+RF06 - O sistema deve permitir que o professor visualize a lista de alunos vinculados à sua sala.
+
+4. Acesso e Vinculação do Aluno
+RF07 - O sistema deve permitir que o aluno acesse a aplicação informando o código da sala fornecido pelo professor.
+RF08 - O sistema deve permitir que o aluno cadastre um nickname único dentro da sala.
+
+5. Tela de Fases
+RF09 - Após o aluno se vincular à sala, o sistema deve redirecioná-lo para uma tela de fases, contendo os modos História,Quiz,Modo livre
+
+6. Modo História
+RF10 - O sistema deve exibir uma lista de peças/componentes com suas respectivas histórias.
+RF11 - Ao selecionar uma peça, o sistema deve apresentar Uma narrativa educativa sobre a peça,A localização da peça no computador,Uma simulação de encaixe da peça, que o aluno deve realizar sozinho após a explicação.
+
+7. Modo Quiz
+RF12 - O sistema deve apresentar perguntas de múltipla escolha sobre os componentes aprendidos.
+RF13 - O sistema deve fornecer feedback imediato sobre as respostas corretas ou incorretas.
+RF14-  O sistema deve permitir a visualização da pontuação de cada aluno. 
+
+8. Modo Livre
+RF15 - O sistema deve permitir ao aluno montar um computador livremente, utilizando as peças aprendidas.
+RF16 - O acesso ao modo livre deve estar bloqueado inicialmente e ser desbloqueado conforme o aluno avança nas fases da história.
+RF17 - O sistema deve validar automaticamente a posição de cada peça colocada pelo aluno no modo livre.
+RF18 - O sistema deve exibir uma feedback final sobre a montagem do computador. 
+
 -----------------------------------------------------------------------------------------------
 				Requisitos Não-Funcionais
 
