@@ -30,17 +30,12 @@ RF09 - Após o aluno se vincular à sala, o sistema deve redirecioná-lo para um
 6. Modo História
 RF10 - O sistema deve exibir uma lista de peças/componentes com suas respectivas histórias.
 RF11 - Ao selecionar uma peça, o sistema deve apresentar Uma narrativa educativa sobre a peça,A localização da peça no computador,Uma simulação de encaixe da peça, que o aluno deve realizar sozinho após a explicação.
+RF12 - O sistema deve exibir uma mensagem para que o aluno confirme se deseja prosseguir na história.
 
 7. Modo Quiz
-RF12 - O sistema deve apresentar perguntas de múltipla escolha sobre os componentes aprendidos.
-RF13 - O sistema deve fornecer feedback imediato sobre as respostas corretas ou incorretas.
-RF14-  O sistema deve permitir a visualização da pontuação de cada aluno. 
-
-8. Modo Livre
-RF15 - O sistema deve permitir ao aluno montar um computador livremente, utilizando as peças aprendidas.
-RF16 - O acesso ao modo livre deve estar bloqueado inicialmente e ser desbloqueado conforme o aluno avança nas fases da história.
-RF17 - O sistema deve validar automaticamente a posição de cada peça colocada pelo aluno no modo livre.
-RF18 - O sistema deve exibir uma feedback final sobre a montagem do computador. 
+RF13- O sistema deve apresentar perguntas de múltipla escolha sobre os componentes aprendidos.
+RF14 - O sistema deve fornecer feedback imediato sobre as respostas corretas ou incorretas.
+RF15-  O sistema deve permitir a visualização da pontuação de cada aluno. 
 
 -----------------------------------------------------------------------------------------------
 				Requisitos Não-Funcionais
