@@ -1,13 +1,27 @@
 
 -----------------------------------------------------------------------------------------------
 				Histórias de Usuários 
-1- Como criança usuária do jogo, quero descobrir a função de cada peça de um computador, para entender como elas se conectam e contribuem juntas para o funcionamento do sistema.
-
-2- Como responsável por uma criança usuária do jogo, quero que meu filho(a) use um software educativo, divertido e seguro, para que ele(a) possa aprender sobre tecnologia e desenvolver interesse pela área.
-
-3- Como educador(a), quero acompanhar o desempenho das crianças no jogo por meio de relatórios simples e visuais, para avaliar seu progresso na aprendizagem e identificar quais conceitos precisam ser reforçados.
 -----------------------------------------------------------------------------------------------
-				Requisitos Funcionais
+1- Como aluno, quero descobrir a função de cada peça de um computador, para entender como elas se conectam e contribuem juntas para o funcionamento do sistema.
+
+2- Como responsável por um aluno, quero que meu filho(a) use um software educativo, divertido e seguro, para que ele(a) possa aprender sobre tecnologia e desenvolver interesse pela área.
+
+3- Como professor, quero acompanhar o desempenho das crianças no jogo por meio de relatórios simples e visuais, para avaliar seu progresso na aprendizagem e identificar quais conceitos precisam ser reforçados.
+
+4- Como aluno, quero receber feedbacks visuais e sonoros ao concluir atividades, para saber se acertei e me sentir motivado a continuar jogando e aprendendo.
+
+5- Como professor, quero poder excluir alunos da sala, para remover entradas duplicadas ou alunos que não participam mais da turma.
+
+6- Como aluno, quero poder visualizar minha pontuação e progresso nas fases, para acompanhar meu desempenho e me motivar a melhorar.
+
+7- Como professor, quero poder resetar o progresso da sala, para começar uma nova turma ou ciclo de aprendizagem.
+
+8- Como professor, quero receber relatórios com gráficos simples e intuitivos, para visualizar rapidamente quais alunos estão indo bem e quais precisam de mais apoio.
+
+9- Como aluno, quero poder repetir os quizzes quantas vezes quiser, para reforçar o conteúdo e melhorar minha pontuação.
+-----------------------------------------------------------------------------------------------
+				Requisitos Funcionais(RF)
+-----------------------------------------------------------------------------------------------
 1. Acesso Inicial
 RF01 - O sistema deve exibir, ao iniciar, a opção para o usuário selecionar se é aluno ou professor.
 
@@ -22,7 +36,7 @@ RF06 - O sistema deve permitir que o professor visualize a lista de alunos vincu
 
 4. Acesso e Vinculação do Aluno
 RF07 - O sistema deve permitir que o aluno acesse a aplicação informando o código da sala fornecido pelo professor.
-RF08 - O sistema deve permitir que o aluno cadastre um nickname único dentro da sala.
+RF08 - O sistema deve permitir que o aluno cadastre nomes e sobrenomes únicos dentro da sala.
 
 5. Tela de Fases
 RF09 - Após o aluno se vincular à sala, o sistema deve redirecioná-lo para uma tela de fases, contendo os modos História,Quiz,Modo livre
@@ -33,11 +47,60 @@ RF11 - Ao selecionar uma peça, o sistema deve apresentar Uma narrativa educativ
 RF12 - O sistema deve exibir uma mensagem para que o aluno confirme se deseja prosseguir na história.
 
 7. Modo Quiz
-RF13- O sistema deve apresentar perguntas de múltipla escolha sobre os componentes aprendidos.
+RF13 - O sistema deve apresentar perguntas de múltipla escolha sobre os componentes aprendidos.
 RF14 - O sistema deve fornecer feedback imediato sobre as respostas corretas ou incorretas.
-RF15-  O sistema deve permitir a visualização da pontuação de cada aluno. 
+RF15 -  O sistema deve permitir a visualização da pontuação de cada aluno. 
 
 -----------------------------------------------------------------------------------------------
-				Requisitos Não-Funcionais
+				Requisitos Não-Funcionais(RNF)
+-----------------------------------------------------------------------------------------------
+1.Linguagem e Banco de Ddos
+RNF01 - O sistema deve ser projetado usando a linguagem Java.
+RNF02 - O banco de dados deverá usar a linguagem SQL, e ser um banco de dados relacional. 
+
+1. Desempenho e Usabilidade
+RNF03 – O sistema deve ter tempo de carregamento inferior a 3 segundos em cada troca de tela.
+RNF04 – A interface deve ser intuitiva, com elementos visuais adequados ao público infantil, utilizando ícones, cores e sons atrativos.
+RNF05 – O sistema deve disponibilizar feedback visual e sonoro nas interações dos alunos.
+
+2. Segurança
+RNF06 – O sistema não deve coletar dados sensíveis das crianças, como e-mail, CPF ou dados pessoais, respeitando a Lei Geral de Proteção de Dados (LGPD) e normas equivalentes.
+RNF07 – As informações dos professores (nome, senha e salas) devem ser armazenadas de forma segura, utilizando criptografia de senhas.
+RNF08 – O sistema deve garantir que somente usuários autenticados (professores) possam acessar os relatórios e gerenciamento de salas.
+
+3. Compatibilidade
+RNF09 – O sistema deve ser compatível com navegadores modernos (Google Chrome, Firefox, Edge e Safari) e dispositivos móveis (tablets).
+RNF10 – O sistema deve ser responsivo, adaptando-se automaticamente a diferentes tamanhos de tela.
+
+4. Escalabilidade
+RNF11 – O sistema deve suportar, simultaneamente, no mínimo 100 usuários ativos sem degradação perceptível do desempenho.
 
 -----------------------------------------------------------------------------------------------
+				Regras de Negócio(RN)
+-----------------------------------------------------------------------------------------------
+RN01 – Nome único na sala:
+Cada aluno deve possuir um nome único dentro da mesma sala. Nomes repetidos juntamente com sobrenomes (Ex: Duas pessoas com nome Pedro Garcia) não são permitidos na mesma sala, mas podem ser usados em outras.
+
+RN02 – Código da sala:
+O código da sala é gerado automaticamente e deve ser único. Esse código é obrigatório para que o aluno possa se vincular à sala.
+
+RN03 – Vinculação de aluno:
+Um aluno só pode acessar o jogo após inserir corretamente o código da sala e escolher um nome válido.
+
+RN04 – Progresso individual:
+O progresso (história concluída, quizzes realizados e pontuação) é salvo individualmente para cada aluno dentro da sala e não é compartilhado entre salas.
+
+RN05 – Relatórios restritos:
+Apenas professores autenticados têm acesso aos relatórios de desempenho dos alunos vinculados às suas respectivas salas.
+
+RN06 – Feedback imediato no Quiz:
+Ao responder uma questão no modo Quiz, o aluno recebe imediatamente a informação se sua resposta está correta ou incorreta, além de ver sua pontuação atual.
+
+RN07 – Sequência no modo História:
+No modo História, o aluno deve realizar a simulação de encaixe da peça antes de poder avançar para a próxima etapa ou peça.
+
+RN08 – Senha do professor:
+A senha cadastrada pelo professor deve ter no mínimo 6 caracteres para garantir um nível básico de segurança.
+
+RN09 – Reset de sala:
+O professor tem a opção de redefinir (resetar) a sala, apagando o progresso dos alunos vinculados, caso deseje iniciar uma nova turma ou ciclo.
