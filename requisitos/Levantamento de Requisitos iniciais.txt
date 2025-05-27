@@ -72,9 +72,6 @@ RNF08 – O sistema deve garantir que somente usuários autenticados (professore
 RNF09 – O sistema deve ser compatível com navegadores modernos (Google Chrome, Firefox, Edge e Safari) e dispositivos móveis (tablets).
 RNF10 – O sistema deve ser responsivo, adaptando-se automaticamente a diferentes tamanhos de tela.
 
-4. Escalabilidade
-RNF11 – O sistema deve suportar, simultaneamente, no mínimo 100 usuários ativos sem degradação perceptível do desempenho.
-
 -----------------------------------------------------------------------------------------------
 				Regras de Negócio(RN)
 -----------------------------------------------------------------------------------------------
