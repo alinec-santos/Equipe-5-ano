@@ -8,7 +8,7 @@ ByteCraft é mais do que um jogo — é uma aventura pelo mundo da **tecnologia 
 
 ## 🏫 Sobre o Projeto
 
-Este projeto é uma **iniciativa da Universidade Federal de Viçosa (UFV)**, em parceria com a **Escola Municipal Dona Amélia Ribeiro (EmDAR)**, localizada no município de **Florestal - MG**. O objetivo é **aproximar os alunos do universo da computação**, despertando o interesse desde cedo pela área de forma divertida e prática! 🎓🌟
+Este projeto é uma **iniciativa da Universidade Federal de Viçosa (UFV)**, em parceria com a **Escola Municipal Dercy Alves Ribeiro**, localizada no município de **Florestal - MG**. O objetivo é **aproximar os alunos do universo da computação**, despertando o interesse desde cedo pela área de forma divertida e prática! 🎓🌟
 
 ---
 
@@ -44,7 +44,6 @@ Os educadores têm acesso a funcionalidades exclusivas:
 ## 🚀 Em Desenvolvimento
 
 O ByteCraft está em constante evolução! 💡  
-Nosso time está trabalhando para adicionar novas funcionalidades, histórias e formas de aprendizado gamificado. 
 
 Fique ligado para mais atualizações! 🔧🎮
 
